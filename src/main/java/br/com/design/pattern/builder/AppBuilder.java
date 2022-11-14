@@ -3,15 +3,16 @@ package br.com.design.pattern.builder;
 public class AppBuilder {
     public static void main(String[] args) {
         
-        Object sapato = ProdutoBuilder.builder()
+        Produto sapato = ProdutoBuilder.builder()
         		.nome("sb casual")
         		.cor("preto")
         		.estilo("casual")
         		.preco("100.00")
         		.imagem("src/imagem/exemplo")
-        		.descricao("exemplo");
+        		.descricao("exemplo")
+        		.build();
         
-        Object mesa = ProdutoBuilder.builder()
+        Produto mesa = ProdutoBuilder.builder()
         		.nome("mesa escritório")
         		.cor("marrom")
         		.estilo("classica")
@@ -20,6 +21,7 @@ public class AppBuilder {
         		.altura("1.90")
         		.largura("1.70")
         		.materiais("madeira")
-        		.descricao("exemplo");
+        		.descricao("exemplo")
+        		.build();
     }
 }
