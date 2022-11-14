@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: mathe
+Build-Jdk: 11.0.16
+Main-Class: br.com.design.pattern.builder.App
+Created-By: Maven Integration for Eclipse
+
